@@ -132,7 +132,18 @@ winget source update
 winget upgrade --all --accept-source-agreements --accept-package-agreements
 
 # Install new apps
-winget install Microsoft.VCRedist.2005.x64 Microsoft.VCRedist.2005.x86 Microsoft.VCRedist.2008.x64 Microsoft.VCRedist.2008.x86 Microsoft.VCRedist.2010.x64 Microsoft.VCRedist.2010.x86 Microsoft.VCRedist.2012.x64 Microsoft.VCRedist.2012.x86 Microsoft.VCRedist.2013.x64 Microsoft.VCRedist.2013.x86 Microsoft.VCRedist.2015+.x64 Microsoft.VCRedist.2015+.x86 --accept-source-agreements --accept-package-agreements
+winget install Microsoft.VCRedist.2005.x64 --accept-source-agreements --accept-package-agreements
+winget install Microsoft.VCRedist.2005.x86 --accept-source-agreements --accept-package-agreements
+winget install Microsoft.VCRedist.2008.x64 --accept-source-agreements --accept-package-agreements
+winget install Microsoft.VCRedist.2008.x86 --accept-source-agreements --accept-package-agreements
+winget install Microsoft.VCRedist.2010.x64 --accept-source-agreements --accept-package-agreements
+winget install Microsoft.VCRedist.2010.x86 --accept-source-agreements --accept-package-agreements
+winget install Microsoft.VCRedist.2012.x64 --accept-source-agreements --accept-package-agreements
+winget install Microsoft.VCRedist.2012.x86 --accept-source-agreements --accept-package-agreements
+winget install Microsoft.VCRedist.2013.x64 --accept-source-agreements --accept-package-agreements
+winget install Microsoft.VCRedist.2013.x86 --accept-source-agreements --accept-package-agreements
+winget install Microsoft.VCRedist.2015+.x64 --accept-source-agreements --accept-package-agreements
+winget install Microsoft.VCRedist.2015+.x86 --accept-source-agreements --accept-package-agreements
 winget install 7zip.7zip --accept-source-agreements --accept-package-agreements
 winget install Gyan.FFmpeg --accept-source-agreements --accept-package-agreements
 winget install Microsoft.PowerShell --accept-source-agreements --accept-package-agreements
